@@ -1,0 +1,27 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "continues integration/development",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernaljohnraymund/sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernaljohnraymund/sample/issues"
+  },
+  "homepage": "https://github.com/bernaljohnraymund/sample#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1"
+  }
+}
